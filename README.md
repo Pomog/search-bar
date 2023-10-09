@@ -76,4 +76,3 @@ This project will help you learn about:
 - Event creation and display
 - JSON files and format
 - Go routines
->>>>>>> 8be8afb (GetInfoFromAPI)
