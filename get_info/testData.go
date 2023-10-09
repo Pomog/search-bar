@@ -66,3 +66,84 @@ func getArtists() string {
 `
 
 }
+
+func getRelations() string {
+	return `
+    [
+        {
+            "id": 1,
+            "datesLocations": {
+                "dunedin-new_zealand": [
+                    "10-02-2020"
+                ],
+                "georgia-usa": [
+                    "22-08-2019"
+                ],
+                "los_angeles-usa": [
+                    "20-08-2019"
+                ],
+                "nagoya-japan": [
+                    "30-01-2019"
+                ],
+                "north_carolina-usa": [
+                    "23-08-2019"
+                ],
+                "osaka-japan": [
+                    "28-01-2020"
+                ],
+                "penrose-new_zealand": [
+                    "07-02-2020"
+                ],
+                "saitama-japan": [
+                    "26-01-2020"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "datesLocations": {
+                "noumea-new_caledonia": [
+                    "15-11-2019"
+                ],
+                "papeete-french_polynesia": [
+                    "16-11-2019"
+                ],
+                "playa_del_carmen-mexico": [
+                    "05-12-2019",
+                    "06-12-2019",
+                    "07-12-2019",
+                    "08-12-2019",
+                    "09-12-2019"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "datesLocations": {
+                "lausanne-switzerland": [
+                    "25-09-1994"
+                ],
+                "london-uk": [
+                    "10-05-2007",
+                    "02-07-2005",
+                    "29-10-1994",
+                    "28-10-1994",
+                    "27-10-1994",
+                    "26-10-1994",
+                    "23-10-1994",
+                    "22-10-1994",
+                    "21-10-1994",
+                    "20-10-1994",
+                    "19-10-1994",
+                    "17-10-1994",
+                    "16-10-1994",
+                    "15-10-1994",
+                    "14-10-1994",
+                    "13-10-1994",
+                    "12-10-1994"
+                ]
+            }
+        }
+    ]
+    `
+}
