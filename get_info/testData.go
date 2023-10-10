@@ -1,8 +1,6 @@
 package get_info
 
 func getArtists() string {
-
-	// JSON data representing a slice of artists
 	return `
 [
 	{

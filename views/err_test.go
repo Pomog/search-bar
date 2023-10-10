@@ -1,4 +1,4 @@
-package visualization
+package views
 
 import (
 	"net/http"

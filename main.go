@@ -1,7 +1,7 @@
 package main
 
 import (
-	"groupie-tracker/visualization"
+	"groupie-tracker/views"
 	"net/http"
 )
 
@@ -16,6 +16,5 @@ func main() {
 
 func ErrTest(w http.ResponseWriter, r *http.Request) {
 	errorMessage := "An error occurred while parsing the template."
-	visualization.ErrorHandler(w, r, errorMessage)
-	return
+	views.ErrorHandler(w, r, errorMessage)
 }
